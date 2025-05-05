@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect Your Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate helps businesses integrate their backend systems with our AI-powered customer service solution. Connect with Salesforce, Zendesk, Shopify and more.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> English <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" class="active"><i class="fas fa-check"></i> English</a>
+          <a href="#">Español</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Italiano</a>
+          <a href="#">हिंदी</a>
+          <a href="#">Norsk</a>
+          <a href="#">Hrvatski</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrations</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Channels
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Pricing</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Log In</a>
+              <a href="#" class="navbar-item btn-primary">Sign Up</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Security Policy</h1>
+    
+    <h2>1. Introduction</h2>
+    <p>This Security Policy establishes the framework for safeguarding Customate S&A UG (from now on "Customate") data, assets, and operations against potential threats. By adhering to this policy, we strive to ensure the confidentiality, integrity, and availability of company resources.</p>
+    
+    <h3>1.1 Purpose of the Security Policy</h3>
+    <p>The purpose of this Security Policy is to outline the principles, guidelines, and responsibilities required to maintain a secure operational environment. This policy aims to:</p>
+    <ul>
+      <li>Protect company assets, including physical and digital resources, from unauthorized access, damage, and loss.</li>
+      <li>Ensure compliance with relevant legal, regulatory, and contractual security obligations.</li>
+      <li>Promote a culture of security awareness among employees, contractors, and stakeholders.</li>
+      <li>Minimize security risks through proactive measures and response strategies.</li>
+    </ul>
+    
+    <h3>1.2 Scope and Applicability</h3>
+    <p>This Security Policy applies to all employees, contractors, business partners, and any other individuals who access company systems, data, or facilities. It covers:</p>
+    <ul>
+      <li>Information assets, including data, applications, hardware, and networks.</li>
+      <li>Physical and logical security measures implemented within company premises and digital platforms.</li>
+      <li>Security responsibilities at all levels of the organization.</li>
+      <li>Compliance with external regulatory and contractual security requirements.</li>
+    </ul>
+    
+    <h2>2. Infrastructure and System Security</h2>
+    <p>Our company is committed to implementing robust security measures to protect its infrastructure, systems, and data. This section outlines key security controls to ensure the integrity, confidentiality, and availability of IT resources.</p>
+    
+    <h3>2.1 Cloud Security Measures</h3>
+    <p>For cloud-based environments, the following security practices are implemented:</p>
+    <ul>
+      <li><strong>Data Encryption:</strong> Encryption of data at rest and in transit using industry-standard protocols.</li>
+      <li><strong>Identity and Access Management (IAM):</strong> Multi-factor authentication (MFA) and strict access control policies.</li>
+      <li><strong>Secure Configurations:</strong> Regular audits of cloud security settings to align with best practices (e.g., CIS benchmarks).</li>
+      <li><strong>Incident Response:</strong> Integration of cloud security monitoring tools to detect and respond to threats in real time.</li>
+      <li><strong>Vendor Compliance:</strong> Ensuring cloud service providers comply with GDPR and the standards ISO 27001, and SOC 2.</li>
+    </ul>
+    
+    <h3>2.2 Network Security</h3>
+    <p>To protect the company's network infrastructure, the following security measures are enforced:</p>
+    <ul>
+      <li><strong>Firewalls & Intrusion Prevention:</strong> Deployment of next-generation firewalls (NGFWs) with deep packet inspection.</li>
+      <li><strong>DDoS Protection:</strong> Implementation of anti-DDoS mechanisms to mitigate distributed denial-of-service attacks.</li>
+      <li><strong>VPN & Secure Access:</strong> Use of encrypted VPNs and Zero Trust Network Access (ZTNA) for remote employees.</li>
+      <li><strong>Network Segmentation:</strong> Separation of critical systems to minimize lateral movement in case of a breach.</li>
+      <li><strong>Wireless Security:</strong> Enforcing WPA3 encryption and restricting access to unauthorized devices.</li>
+    </ul>
+    
+    <h3>2.3 Secure Software Development Practices (SDLC)</h3>
+    <p>To ensure the security of internally developed software, the following best practices are followed:</p>
+    <ul>
+      <li><strong>Secure Coding Standards:</strong> Adherence to OWASP Top 10 and secure coding guidelines.</li>
+      <li><strong>Code Review & Static Analysis:</strong> Mandatory security code reviews and use of SAST (Static Application Security Testing) tools.</li>
+      <li><strong>Vulnerability Management:</strong> Continuous scanning and remediation of security flaws in the codebase.</li>
+      <li><strong>DevSecOps Integration:</strong> Embedding security tools and automation within CI/CD pipelines.</li>
+      <li><strong>Penetration Testing:</strong> Regular security assessments of applications to identify and fix vulnerabilities.</li>
+    </ul>
+    
+    <h2>3. Data Protection Measures</h2>
+    <p>Protecting sensitive data is a top priority for our organization. These measures ensure the confidentiality, integrity, and availability of data across all environments, reducing the risk of unauthorized access, breaches, or data loss.</p>
+    
+    <h3>3.1 Encryption Standards</h3>
+    <p>To protect data from unauthorized access, encryption is applied both at rest and in transit:</p>
+    <ul>
+      <li><strong>Data at Rest:</strong> All sensitive data is encrypted using AES-256 encryption.</li>
+      <li><strong>Data in Transit:</strong> TLS 1.2 or higher is required for all data transmission, including API communications and internal systems.</li>
+      <li><strong>Key Management:</strong> Encryption keys are securely stored and managed using Hardware Security Modules (HSMs) or cloud-based Key Management Systems (KMS).</li>
+      <li><strong>Email & File Encryption:</strong> End-to-end encryption is enforced for confidential communications and file-sharing.</li>
+    </ul>
+    
+    <h3>3.2 Access Controls and Authentication</h3>
+    <p>To limit data access to authorized users only, the following access control measures are implemented:</p>
+    <ul>
+      <li><strong>Role-Based Access Control (RBAC):</strong> Employees are granted access based on their job function, following the principle of least privilege (PoLP).</li>
+      <li><strong>Multi-Factor Authentication:</strong> Two-Factor-Authentication is required for all employees accessing critical systems and sensitive data.</li>
+      <li><strong>Identity and Access Management (IAM):</strong> Centralized user authentication with strict monitoring of privileged accounts.</li>
+      <li><strong>Session Management:</strong> Automatic session timeouts and re-authentication for prolonged inactivity.</li>
+      <li><strong>Access Reviews:</strong> Regular audits of user permissions to prevent privilege creep.</li>
+    </ul>
+    
+    <h3>3.3 Secure Data Storage and Backups</h3>
+    <p>To ensure data availability and recoverability, the following best practices are followed:</p>
+    <ul>
+      <li><strong>Data Classification:</strong> Sensitive data is identified, categorized, and stored in designated secure environments.</li>
+      <li><strong>Redundant Storage:</strong> Critical data is stored in multiple secure locations to prevent data loss.</li>
+      <li><strong>Automated Backups:</strong> Regular encrypted backups are performed, with periodic restoration testing.</li>
+      <li><strong>Retention Policies:</strong> Company data is stored as long as its relevant for its operations. Customers data is stored as long as customers are subscribed, and is deleted a six months or before their cancellation of the subscription.</li>
+      <li><strong>Immutable Backups:</strong> Protection against ransomware attacks by maintaining backup copies in external storage, periodically updated.</li>
+    </ul>
+    
+    <h3>3.4 Data Masking and Anonymization</h3>
+    <p>To protect personally identifiable information (PII) and sensitive business data, the following techniques are implemented:</p>
+    <ul>
+      <li><strong>Data Masking:</strong> Partial obfuscation of sensitive fields in non-production environments.</li>
+      <li><strong>Tokenization:</strong> Replacement of sensitive data with unique tokens to reduce exposure.</li>
+      <li><strong>Anonymization:</strong> Removal of identifiable attributes when processing data for analytics or reporting.</li>
+      <li><strong>Privacy by Design:</strong> Ensuring data protection is integrated into all systems and workflows from the outset.</li>
+    </ul>
+    
+    <h2>4. User Security Features</h2>
+    <p>Ensuring the security of user accounts and their data is essential in maintaining a secure environment. This section outlines measures that help protect user access and mitigate the risk of unauthorized use.</p>
+    
+    <h3>4.1 Account Security</h3>
+    <p>Account security is reinforced through strong authentication practices:</p>
+    
+    <p><strong>Password Policies:</strong></p>
+    <ul>
+      <li>Users are required to create strong passwords with a combination of at least 10 characters, including uppercase, lowercase, numbers, and special characters.</li>
+      <li>Passwords are stored securely using salted hashing algorithms.</li>
+      <li><strong>Multi-Factor Authentication:</strong> Two Factor Authentication is optional for all users accessing sensitive systems and data.</li>
+      <li>Critical user actions (e.g., password changes, high-risk transactions) are subject to additional authentication checks.</li>
+    </ul>
+    
+    <h3>4.2 User Data Protection Mechanisms</h3>
+    <p>User data protection is a priority, with mechanisms in place to prevent unauthorized access or misuse:</p>
+    <ul>
+      <li><strong>Data Minimization:</strong> Only necessary user data is collected and stored, reducing the risk of exposure.</li>
+      <li><strong>End-to-End Encryption:</strong> User data is encrypted during transmission and while stored in our systems.</li>
+      <li><strong>Data Access Logs:</strong> User data access is logged, and any suspicious access attempts are flagged for review.</li>
+      <li><strong>Sensitive Data Handling:</strong> PII (Personally Identifiable Information) and financial data are protected with additional safeguards like data masking, tokenization, and strict access control.</li>
+      <li><strong>Regular Audits:</strong> Periodic reviews of user data access policies to ensure compliance with privacy regulations like GDPR, CCPA, etc.</li>
+    </ul>
+    
+    <h3>4.3 Regular Audits of User Data Access</h3>
+    <p><strong>Regular Audits of User Data Access Policies</strong></p>
+    <p>Our organization conducts periodic reviews of user data access policies to ensure compliance with global privacy regulations, including GDPR, CCPA, and other relevant frameworks. These audits are designed to maintain the integrity of our data security measures and ensure that only authorized personnel have access to sensitive information.</p>
+    
+    <p><strong>Frequency and Scope of Audits</strong></p>
+    <ul>
+      <li>Data access audits are conducted semi-annually, with additional reviews triggered by significant changes in regulations, infrastructure, or business operations.</li>
+      <li>Audits cover all systems that store, process, or transmit personal and sensitive data, including on-premises, cloud, and third-party platforms.</li>
+      <li>The scope includes user role reviews, permission changes, access logs, and third-party integrations.</li>
+    </ul>
+    
+    <p><strong>Access Control Validation</strong></p>
+    <ul>
+      <li>We verify that role-based access controls (RBAC) are properly enforced, ensuring that users have the minimum necessary privileges.</li>
+      <li>Temporary access permissions are reviewed and revoked once the required task is completed.</li>
+      <li>Multi-Factor Authentication (MFA) compliance is assessed to ensure adherence to security policies.</li>
+      <li>Any unauthorized access attempts or anomalies in access logs are flagged for investigation.</li>
+    </ul>
+    
+    <p><strong>Data Mapping and Classification</strong></p>
+    <ul>
+      <li>We maintain an up-to-date data inventory, mapping where personal and sensitive data resides within our infrastructure.</li>
+      <li>Automated tools classify and label data according to sensitivity, ensuring appropriate handling measures are applied.</li>
+      <li>Encryption and anonymization processes are audited to confirm their effectiveness in protecting stored and transmitted data.</li>
+    </ul>
+    
+    <p><strong>Third-Party Access Audits</strong></p>
+    <ul>
+      <li>Vendor contracts are reviewed to ensure compliance with GDPR Article 28 (Processor Obligations) and CCPA security requirements.</li>
+    </ul>
+    
+    <p><strong>User Activity Monitoring and Logging</strong></p>
+    <ul>
+      <li>All user access activities are logged and monitored using Security Information and Event Management (SIEM) solutions.</li>
+      <li>Anomalous behavior, such as excessive data exports or unauthorized data modifications, is flagged for immediate review.</li>
+      <li>Audit logs are retained for a minimum of 12 months, in compliance with legal and regulatory requirements.</li>
+    </ul>
+    
+    <p><strong>Remediation and Compliance Reporting</strong></p>
+    <ul>
+      <li>Any policy violations or unauthorized access incidents identified during audits are escalated to the security and compliance teams for remediation.</li>
+      <li>Corrective actions are documented, and affected users are provided with mandatory security awareness training.</li>
+      <li>Audit results are reported to senior management, and necessary adjustments are made to security policies and procedures.</li>
+      <li>If required by regulatory bodies, compliance reports are generated and shared with authorities as part of our transparency obligations.</li>
+    </ul>
+    
+    <h3>4.4 Session Management and Auto Logout</h3>
+    <p>Effective session management reduces the risk of unauthorized access through stolen or forgotten sessions:</p>
+    <ul>
+      <li><strong>Auto Logout:</strong> All users are logged out automatically after detecting an unusual login pattern.</li>
+      <li><strong>Secure Cookie Storage:</strong> Cookies used for user sessions are encrypted and set with secure attributes to prevent hijacking.</li>
+      <li><strong>Session Monitoring:</strong> Continuous monitoring of user sessions for unusual activity (e.g., login from unfamiliar IP addresses, multiple failed login attempts).</li>
+    </ul>
+    
+    <h2>5. AI-Specific Security Considerations</h2>
+    <p>As the use of AI technologies increases, it is critical to address the unique security risks associated with AI models, data, and decision-making. This section outlines the security measures we take to protect AI systems and ensure their responsible use.</p>
+    
+    <h3>5.1 Preventing AI Model Manipulation and Prompt Injection Attacks</h3>
+    <p>AI models can be vulnerable to various forms of manipulation, including prompt injection and adversarial attacks. To mitigate these risks, we employ the following strategies:</p>
+    <ul>
+      <li><strong>Input Validation and Sanitization:</strong> All inputs to AI systems, including user-generated data, are validated and sanitized to prevent malicious prompt injections.</li>
+      <li><strong>Adversarial Training:</strong> AI models are trained with adversarial examples to enhance their resilience against manipulation and to recognize potential attack patterns.</li>
+      <li><strong>Model Robustness Testing:</strong> Regular penetration testing and vulnerability assessments are conducted to identify and mitigate weaknesses in AI models.</li>
+      <li><strong>Continuous Monitoring:</strong> Ongoing monitoring of AI outputs and user interactions helps to detect and respond to anomalous behavior or signs of manipulation.</li>
+    </ul>
+    
+    <h3>5.2 Data Anonymization in AI Training</h3>
+    <p>Protecting user privacy during AI model training is a priority, especially when handling sensitive data. The following practices are implemented:</p>
+    <ul>
+      <li><strong>Data Anonymization:</strong> PII and other sensitive information are anonymized before being used in AI training datasets.</li>
+      <li><strong>Differential Privacy:</strong> Techniques such as differential privacy are employed to ensure that AI models cannot re-identify individuals within the data they are trained on.</li>
+      <li><strong>Data Minimization:</strong> Only the minimum necessary data is used to train AI models, and personal or identifiable data is avoided unless explicitly required and anonymized.</li>
+      <li><strong>Audit Trails:</strong> Detailed records of data usage for AI model training are kept to ensure accountability and to meet legal and regulatory requirements.</li>
+    </ul>
+    
+    <h3>5.3 AI Decision-Making Transparency and Explainability</h3>
+    <p>Ensuring that AI models make decisions transparently and can be explained is essential for building trust and accountability:</p>
+    <ul>
+      <li><strong>Model Explainability:</strong> We use interpretable AI techniques to provide clear, understandable explanations of how AI models reach their decisions. Tools like SHAP (Shapley Additive Explanations) and LIME (Local Interpretable Model-agnostic Explanations) are employed to explain complex AI outputs.</li>
+      <li><strong>Bias Detection:</strong> Regular audits and testing are conducted to identify and eliminate biases in AI models that could lead to unfair or discriminatory outcomes.</li>
+      <li><strong>Clear Communication:</strong> All AI-driven decisions, especially those affecting users or customers, are accompanied by transparent explanations about the factors influencing the decision-making process.</li>
+      <li><strong>Regulatory Compliance:</strong> AI decision-making processes comply with relevant regulations, such as GDPR's right to explanation, ensuring that users can request explanations for automated decisions that impact them.</li>
+    </ul>
+    
+    <h2>6. Incident Response and Monitoring</h2>
+    <p>Effective incident response and continuous monitoring are essential to quickly detect, mitigate, and recover from security incidents. This section outlines the protocols in place for maintaining proactive security measures and responding to potential threats.</p>
+    
+    <h3>6.1 Security Monitoring and Threat Detection</h3>
+    <p>To ensure the safety of our systems and data, we continuously monitor and detect security threats:</p>
+    <ul>
+      <li><strong>Real-time Monitoring:</strong> Security Information and Event Management (SIEM) tools are employed to provide 24/7 monitoring of network traffic, systems, and user behavior for suspicious activities.</li>
+      <li><strong>Threat Intelligence:</strong> The organization leverages external threat intelligence feeds to stay updated on emerging threats and vulnerabilities, ensuring our defense mechanisms are proactive.</li>
+      <li><strong>Anomaly Detection:</strong> AI-based anomaly detection tools are used to identify deviations from normal activity, which may indicate a potential breach or security risk.</li>
+      <li><strong>Network & Application Monitoring:</strong> Regular scans and real-time monitoring of network traffic and application logs help to detect signs of intrusion, malware, or unauthorized access.</li>
+      <li><strong>Security Audits:</strong> Periodic audits of systems, applications, and user activities ensure ongoing compliance with security standards and identify potential vulnerabilities.</li>
+    </ul>
+    
+    <h3>6.2 Incident Response Plan and Breach Handling</h3>
+    <p>In the event of a security incident, a well-defined response plan ensures swift and effective action:</p>
+    <ul>
+      <li><strong>Incident Identification and Classification:</strong> All security incidents are immediately logged, classified based on severity, and prioritized for a response.</li>
+      <li><strong>Containment and Eradication:</strong> Immediate steps are taken to contain the incident, isolate affected systems, and remove any threats from the environment.</li>
+      <li><strong>Root Cause Analysis:</strong> Following containment, a thorough analysis is performed to identify the cause of the breach and to ensure similar incidents are prevented in the future.</li>
+      <li><strong>Recovery and Restoration:</strong> A recovery plan is initiated to restore normal operations as quickly as possible, including restoring data from backups, rebuilding affected systems, and testing for stability.</li>
+      <li><strong>Post-Incident Review:</strong> After handling the incident, a post-incident review is conducted to evaluate the response, identify areas for improvement, and update security measures.</li>
+    </ul>
+    
+    <h3>6.3 Notification Procedures for Security Incidents</h3>
+    <p>In line with GDPR norms, Customate takes the following steps for incident transparency and accountability:</p>
+    <ul>
+      <li><strong>Incident Reporting:</strong> In the event of a data breach, affected individuals and regulatory authorities are notified within 72 hours of detection.</li>
+      <li><strong>Clear Communication:</strong> Notifications will include clear and concise information regarding the nature of the breach, the affected data, potential risks, and the steps the organization is taking to mitigate the impact.</li>
+      <li><strong>Customer Support:</strong> Dedicated customer support teams are available to assist affected individuals and answer questions related to the incident.</li>
+      <li><strong>Documentation and Record Keeping:</strong> All incidents, including breaches, are documented thoroughly for legal compliance, audit purposes, and to track response efforts.</li>
+      <li><strong>Data Subject Rights:</strong> In the case of a breach affecting personal data, affected individuals will be informed of their rights to request further information, access their data, or exercise other rights.</li>
+    </ul>
+    
+    <h2>7. Compliance and Certifications</h2>
+    
+    <h3>7.1 GDPR and German Data Protection (DSGVO) Compliance</h3>
+    <p>Customate is committed to full compliance with the General Data Protection Regulation (GDPR) and the German Data Protection Act (DSGVO), ensuring the protection of personal data:</p>
+    <ul>
+      <li><strong>Data Collection & Processing:</strong> Personal data is only collected for specific, legitimate purposes, and we ensure transparency regarding how data is used.</li>
+      <li><strong>Data Minimization:</strong> We collect only the necessary amount of personal data, and it is retained for no longer than required.</li>
+      <li><strong>Data Subject Rights:</strong> We uphold the rights of individuals, including the right to access, rectify, delete, and restrict the processing of their personal data.</li>
+      <li><strong>Data Protection Officer:</strong> Our appointed Data Protection Officer oversees GDPR and DSGVO compliance, including regular audits and employee training.</li>
+      <li><strong>Security Measures:</strong> Technical and organizational measures are in place to safeguard personal data, such as encryption, access control, and regular risk assessments.</li>
+      <li><strong>Data Breach Notification:</strong> As per GDPR and DSGVO requirements, data subjects and supervisory authorities are notified within 72 hours in the event of a data breach.</li>
+    </ul>
+    
+    <h3>7.2 Industry Standards</h3>
+    <p>Our company adheres to various internationally recognized industry standards and frameworks to ensure the highest level of information security:</p>
+    <ul>
+      <li><strong>ISO 27001:</strong> We are in the process of an ISO 27001 certification, demonstrating our commitment to managing information security risks and implementing an effective Information Security Management System (ISMS).</li>
+      <li><strong>SOC 2:</strong> Our company maintains SOC 2 compliance, ensuring that our internal controls and procedures meet the security, availability, processing integrity, confidentiality, and privacy criteria.</li>
+      <li><strong>Other Standards:</strong> In addition to ISO 27001 and SOC 2, we comply with various other industry-specific standards, including PCI-DSS (for payment processing), and NIST frameworks.</li>
+      <li><strong>Continuous Improvement:</strong> We regularly review and update our practices to maintain compliance with changing regulatory requirements and emerging industry standards.</li>
+    </ul>
+    
+    <h3>7.3 Third-Party Security Audits and Penetration Testing</h3>
+    <p>We proactively engage third-party security experts to assess the security posture of our systems and networks:</p>
+    <ul>
+      <li><strong>Security Audits:</strong> Regular, independent security audits are performed to evaluate the effectiveness of our security controls, identify vulnerabilities, and recommend improvements.</li>
+      <li><strong>Penetration Testing:</strong> Our systems are tested by external experts to simulate real-world attacks and assess our defense mechanisms. Findings are used to enhance our security protocols.</li>
+      <li><strong>Third-Party Vendor Assessments:</strong> We ensure that our third-party vendors and partners comply with security standards by requiring them to undergo security assessments and provide certifications.</li>
+      <li><strong>Remediation & Follow-up:</strong> Following audits and penetration testing, any identified weaknesses are promptly addressed and re-tested to ensure our security measures are continuously improving.</li>
+    </ul>
+    
+    <h2>8. Security Best Practices for Users</h2>
+    <p>Ensuring that all users adhere to security best practices is essential for safeguarding both personal and company data. This section provides guidelines to help users maintain secure interactions with our systems and services.</p>
+    
+    <h3>8.1 Recommendations for Secure Use of the Service</h3>
+    <p>To minimize security risks while using our services, users should follow these best practices:</p>
+    <ul>
+      <li><strong>Use Strong, Unique Passwords:</strong> Always create complex passwords that combine uppercase and lowercase letters, numbers, and special characters. Never reuse passwords across different platforms.</li>
+      <li><strong>Enable Multi-Factor Authentication (MFA):</strong> Users must enable MFA for an additional layer of security, protecting accounts from unauthorized access even if passwords are compromised.</li>
+      <li><strong>Keep Software Up-to-Date:</strong> Regularly update all software, including operating systems, browsers, and applications, to ensure that security vulnerabilities are patched.</li>
+      <li><strong>Secure Devices:</strong> Use antivirus software and enable firewalls on devices to detect and prevent malicious activity. Always lock devices when not in use and set up device encryption where possible.</li>
+      <li><strong>Be Cautious with Personal Data:</strong> Avoid sharing sensitive personal information unless necessary and ensure that communications are conducted through secure, trusted channels (e.g., encrypted messaging services).</li>
+      <li><strong>Access Control:</strong> Ensure that only authorized personnel have access to sensitive or critical information. Always log out after using shared or public computers.</li>
+    </ul>
+    
+    <h3>8.2 Phishing and Social Engineering Awareness</h3>
+    <p>Phishing and social engineering attacks are common methods for cybercriminals to steal sensitive information. Users should be aware of the following precautions:</p>
+    <ul>
+      <li><strong>Recognize Phishing Emails:</strong> Be cautious with unsolicited emails, especially those asking for sensitive information or prompting urgent actions. Check the sender's email address carefully, as phishing emails often come from addresses that look suspicious or are misspelled.</li>
+      <li><strong>Do Not Click on Suspicious Links or Attachments:</strong> Avoid clicking on links or opening attachments from unknown or unverified sources. Hover over links to preview the actual URL and verify it before clicking.</li>
+      <li><strong>Verify Requests for Sensitive Information:</strong> If you receive a request for personal or financial information, verify it through trusted contact methods before providing any details.</li>
+      <li><strong>Social Engineering Tactics:</strong> Be aware that attackers may try to manipulate individuals into providing confidential information by exploiting trust or creating a sense of urgency. Always question requests that seem out of the ordinary or involve sensitive data.</li>
+      <li><strong>Training and Awareness:</strong> Participate in regular security awareness training to stay updated on the latest phishing techniques and learn how to identify potential threats.</li>
+    </ul>
+    
+    <h3>8.3 Reporting Security Issues (Responsible Disclosure Policy)</h3>
+    <p>Our company values user involvement in maintaining security and encourages users to report any vulnerabilities or suspicious activity they encounter:</p>
+    <ul>
+      <li><strong>Responsible Disclosure:</strong> If you discover a security vulnerability, we ask that you report it to us responsibly, ensuring that the issue is not exploited before it is addressed.</li>
+      <li><strong>How to Report:</strong> Users can report security issues by contacting our dedicated security officer at saud@customate.ai . When reporting a vulnerability, please provide a clear description of the issue and any steps required to reproduce it.</li>
+      <li><strong>Non-retaliation:</strong> Our company is committed to a non-retaliation policy. Users who responsibly disclose vulnerabilities will not face legal or professional repercussions.</li>
+      <li><strong>Recognition and Rewards:</strong> We may offer recognition or rewards to users who identify and report critical security vulnerabilities, in accordance with our vulnerability disclosure program.</li>
+      <li><strong>Timely Response:</strong> All reported issues will be investigated promptly, and users will be notified when the issue is resolved or further information is required.</li>
+    </ul>
+    
+    <h2>9. Policy Updates and Changes</h2>
+    <p>Our security policies are regularly reviewed and updated to reflect evolving security threats, legal requirements, and industry best practices. This section outlines how changes to the security policy are managed and communicated to users.</p>
+    
+    <h3>9.1 Right to Modify the Security Policy</h3>
+    <p>We reserve the right to update, modify, or amend this Security Policy at any time, as necessary, to reflect changes in our security practices, technological advancements, regulatory requirements, or other factors that may impact the security of our systems and data.</p>
+    <ul>
+      <li><strong>Scope of Modifications:</strong> Changes may involve additions or deletions to specific sections of the policy or updates to security measures and practices.</li>
+      <li><strong>Continuous Improvement:</strong> These changes will be made to ensure that our security practices remain aligned with the latest standards and threats, further strengthening our commitment to data protection.</li>
+    </ul>
+    
+    <h3>9.2 Notification of Changes</h3>
+    <p>We are committed to keeping users informed about significant updates to the Security Policy.</p>
+    <ul>
+      <li><strong>Notice of Updates:</strong> Whenever substantial changes are made to the policy, users will be notified through email and/or a banner on the website.</li>
+      <li><strong>Policy Versioning:</strong> The updated version of the Security Policy will be available on our website, with a clearly indicated version number and date of the last revision.</li>
+      <li><strong>Review Period:</strong> Users are encouraged to review the updated Security Policy periodically to stay informed of any changes.</li>
+      <li><strong>Immediate Effect:</strong> Unless otherwise stated, all modifications will take effect immediately upon posting the updated policy.</li>
+    </ul>
+    
+    <h3>9.3 User Responsibilities in Security Compliance</h3>
+    <p>Users play an essential role in maintaining a secure environment and are expected to comply with the security policies outlined in this document.</p>
+    <ul>
+      <li><strong>Compliance with Security Guidelines:</strong> Users must adhere to all security best practices, procedures, and guidelines specified in this policy to ensure the protection of their accounts, data, and systems.</li>
+      <li><strong>Prompt Notification of Security Issues:</strong> Users should report any security vulnerabilities, suspicious activities, or breaches promptly, as described in the "Reporting Security Issues" section of this policy.</li>
+      <li><strong>Cooperation with Security Teams:</strong> Users must cooperate with our security teams during security investigations and compliance audits, providing relevant information as needed.</li>
+      <li><strong>Consequences of Non-Compliance:</strong> Failure to comply with this policy may result in restricted access, disciplinary actions, or other penalties, depending on the severity of the violation.</li>
+    </ul>
+  </section>
+</main>
+
+  </body>
+</html>
